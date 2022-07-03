@@ -71,7 +71,7 @@ def expected_full_channel_download():
             Path(".ytdl-sub-pz-download-archive.json"): "dd3c6236a107a665b884f701b8d14d4d",
 
             # Output directory files
-            Path("fanart.jpg"): "fafcfa3fd3ac2446faaf4caaeca1947e",
+            Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
             Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
@@ -167,7 +167,7 @@ def expected_recent_channel_download():
             Path(".ytdl-sub-pz-download-archive.json"): "91534d1c5921d121aa35d7a197ba1940",
 
             # Output directory files
-            Path("fanart.jpg"): "fafcfa3fd3ac2446faaf4caaeca1947e",
+            Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
             Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
@@ -225,7 +225,7 @@ def expected_recent_channel_no_vids_in_range_download():
             Path(".ytdl-sub-pz-download-archive.json"): "99914b932bd37a50b983c5e7c90ae93b",
 
             # Output directory files
-            Path("fanart.jpg"): "fafcfa3fd3ac2446faaf4caaeca1947e",
+            Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
             Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
         }
@@ -272,7 +272,7 @@ def expected_rolling_recent_channel_download():
             Path(".ytdl-sub-pz-download-archive.json"): "97ff47a7c5d89a426a653493ad1a3f06",
 
             # Output directory files
-            Path("fanart.jpg"): "fafcfa3fd3ac2446faaf4caaeca1947e",
+            Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
             Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 

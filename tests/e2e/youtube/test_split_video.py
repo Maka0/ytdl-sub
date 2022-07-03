@@ -90,7 +90,7 @@ def expected_single_video_download():
     # fmt: off
     return ExpectedDownload(
         expected_md5_file_hashes={
-            Path('Project Zombie - 1-6.Intro.mp4'): "855ded973fa59a7321847d949be99e02",
+            Path('Project Zombie - 1-6.Intro.mp4'): "eaec6f50f364b13ef1a201e736ec9c05",
             Path('Project Zombie - 2-6.Part 1.mp4'): "73d485582a5d4447d0d7bc6065a48fc9",
             Path('Project Zombie - 3-6.Part 2.mp4'): "c2f681b2a6b34ac5419f78f7ef560d64",
             Path('Project Zombie - 4-6.Part 3.mp4'): "ab75570bbbfa11897cec7d025ddd18e3",

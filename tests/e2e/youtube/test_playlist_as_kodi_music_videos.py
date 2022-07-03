@@ -73,7 +73,7 @@ def expected_playlist_download():
             Path("JMC - Jesse's Minecraft Server [Trailer - Feb.1].mp4"): "e66287b9832277b6a4d1554e29d9fdcc",
             Path("JMC - Jesse's Minecraft Server [Trailer - Feb.1].nfo"): "3d272fe58487b6011ad049b6000b046f",
 
-            Path("JMC - Jesse's Minecraft Server [Trailer - Feb.27]-thumb.jpg"): "acf67b09cef40ada473646a9ffd1e646",
+            Path("JMC - Jesse's Minecraft Server [Trailer - Feb.27]-thumb.jpg"): "d17c379ea8b362f5b97c6b213b0342cb",
             Path("JMC - Jesse's Minecraft Server [Trailer - Feb.27].mp4"): "04ab5cb3cc12325d0c96a7cd04a8b91d",
             Path("JMC - Jesse's Minecraft Server [Trailer - Feb.27].nfo"): "6f99af10bef67276a507d1d9770c5e92",
 
