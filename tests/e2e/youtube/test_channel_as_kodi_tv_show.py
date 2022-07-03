@@ -72,7 +72,7 @@ def expected_full_channel_download():
 
             # Output directory files
             Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
-            Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
+            Path("poster.jpg"): "e92872ff94c96ad49e9579501c791578",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
             # Entry files
@@ -168,7 +168,7 @@ def expected_recent_channel_download():
 
             # Output directory files
             Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
-            Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
+            Path("poster.jpg"): "e92872ff94c96ad49e9579501c791578",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
             # Recent Entry files
@@ -226,7 +226,7 @@ def expected_recent_channel_no_vids_in_range_download():
 
             # Output directory files
             Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
-            Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
+            Path("poster.jpg"): "e92872ff94c96ad49e9579501c791578",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
         }
     )
@@ -273,7 +273,7 @@ def expected_rolling_recent_channel_download():
 
             # Output directory files
             Path("fanart.jpg"): "c16b8b88a82cbd47d217ee80f6a8b5f3",
-            Path("poster.jpg"): "3ca983064541f7f1702eea6f001a7af1",
+            Path("poster.jpg"): "e92872ff94c96ad49e9579501c791578",
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
             # Rolling Recent Entry files
