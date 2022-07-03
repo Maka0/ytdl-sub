@@ -4,9 +4,8 @@ from pathlib import Path
 from typing import Optional
 from urllib.request import urlopen
 
-from ytdl_sub.utils.ffmpeg import FFMPEG
-
 from ytdl_sub.entries.entry import Entry
+from ytdl_sub.utils.ffmpeg import FFMPEG
 
 
 def _get_downloaded_thumbnail_path(entry: Entry) -> Optional[str]:
@@ -44,15 +43,9 @@ def convert_download_thumbnail(entry: Entry):
     download_thumbnail_path_as_jpg = entry.get_download_thumbnail_path()
     if not download_thumbnail_path:
         raise ValueError("Thumbnail not found")
-    
+
     if not download_thumbnail_path == download_thumbnail_path_as_jpg:
-        FFMPEG.run(
-            [
-                '-i',
-                download_thumbnail_path,
-                download_thumbnail_path_as_jpg
-            ]
-        )
+        FFMPEG.run(["-i", download_thumbnail_path, download_thumbnail_path_as_jpg])
 
 
 def convert_url_thumbnail(thumbnail_url: str, output_thumbnail_path: str):
@@ -67,15 +60,7 @@ def convert_url_thumbnail(thumbnail_url: str, output_thumbnail_path: str):
         Thumbnail file destination after its converted to jpg
     """
     with urlopen(thumbnail_url) as file:
-        thumbnail = tempfile.NamedTemporaryFile()
-        thumbnail.write(file.read())
-        
-        FFMPEG.run(
-            [
-                '-i',
-                thumbnail.name,
-                output_thumbnail_path
-            ]
-        )
-        
-        thumbnail.close()
+        with tempfile.NamedTemporaryFile() as thumbnail:
+            thumbnail.write(file.read())
+
+            FFMPEG.run(["-i", thumbnail.name, output_thumbnail_path])
