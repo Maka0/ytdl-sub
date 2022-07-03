@@ -91,11 +91,11 @@ def expected_single_video_download():
     return ExpectedDownload(
         expected_md5_file_hashes={
             Path('Project Zombie - 1-6.Intro.mp4'): "eaec6f50f364b13ef1a201e736ec9c05",
-            Path('Project Zombie - 2-6.Part 1.mp4'): "73d485582a5d4447d0d7bc6065a48fc9",
-            Path('Project Zombie - 3-6.Part 2.mp4'): "c2f681b2a6b34ac5419f78f7ef560d64",
-            Path('Project Zombie - 4-6.Part 3.mp4'): "ab75570bbbfa11897cec7d025ddd18e3",
-            Path('Project Zombie - 5-6.Part 4.mp4'): "22088c2c60a41ab416904f451efe8e3b",
-            Path('Project Zombie - 6-6.Part 5.mp4'): "f6cd5592af3a017b8e189e7484c27d99",
+            Path('Project Zombie - 2-6.Part 1.mp4'): "5850b19acb250cc13db36f80fa1bba5a",
+            Path('Project Zombie - 3-6.Part 2.mp4'): "445d95eba437db6df284df7e1ab633e8",
+            Path('Project Zombie - 4-6.Part 3.mp4'): "2b6e7532d515c9e64ed2a33d850cf199",
+            Path('Project Zombie - 5-6.Part 4.mp4'): "842bf3c4d1fcc4c5ab110635935dac66",
+            Path('Project Zombie - 6-6.Part 5.mp4'): "238de99f00f829ab72f042b79da9a33a",
             Path('Project Zombie - Intro-thumb.jpg'): "fb95b510681676e81c321171fc23143e",
             Path('Project Zombie - Intro.nfo'): "ded59ac906f579312cc3cf98a57e7ea3",
             Path('Project Zombie - Part 1-thumb.jpg'): "fb95b510681676e81c321171fc23143e",
