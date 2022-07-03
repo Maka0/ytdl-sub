@@ -137,7 +137,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [
       build,
-      package-arm64
+      package-arm64,
       package-amd64
     ]
 
