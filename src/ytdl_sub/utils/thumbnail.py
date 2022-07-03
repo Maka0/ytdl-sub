@@ -45,7 +45,7 @@ def convert_download_thumbnail(entry: Entry):
         raise ValueError("Thumbnail not found")
 
     if not download_thumbnail_path == download_thumbnail_path_as_jpg:
-        FFMPEG.run(["-i", download_thumbnail_path, download_thumbnail_path_as_jpg])
+        FFMPEG.run(["-bitexact", "-i", download_thumbnail_path, download_thumbnail_path_as_jpg])
 
 
 def convert_url_thumbnail(thumbnail_url: str, output_thumbnail_path: str):
@@ -63,4 +63,4 @@ def convert_url_thumbnail(thumbnail_url: str, output_thumbnail_path: str):
         with tempfile.NamedTemporaryFile() as thumbnail:
             thumbnail.write(file.read())
 
-            FFMPEG.run(["-i", thumbnail.name, output_thumbnail_path])
+            FFMPEG.run(["-bitexact", "-i", thumbnail.name, output_thumbnail_path, "-bitexact"])
