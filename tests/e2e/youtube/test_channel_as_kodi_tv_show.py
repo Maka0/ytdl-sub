@@ -120,7 +120,7 @@ def expected_full_channel_download():
             Path("Season 2018/s2018.e1029 - Jesse's Minecraft Server _ Teaser Trailer.mp4"): "82f6ee7253e1dbb83ae7215af08ffacc",
             Path("Season 2018/s2018.e1029 - Jesse's Minecraft Server _ Teaser Trailer.nfo"): "cc7886aae3af6b7b0facd82f95390242",
 
-            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "cd832734efafe234ca80a00ab0b973c5",
+            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "49cc64b25314155c1b8ab0361ac0c34f",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.mp4"): "e733b4cc385b953b08c8eb0f47e03c1e",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.nfo"): "2b3ccb3f1ef81ee49fe1afb88f275a09",
         }
@@ -176,7 +176,7 @@ def expected_recent_channel_download():
             Path("Season 2018/s2018.e1029 - Jesse's Minecraft Server _ Teaser Trailer.mp4"): "82f6ee7253e1dbb83ae7215af08ffacc",
             Path("Season 2018/s2018.e1029 - Jesse's Minecraft Server _ Teaser Trailer.nfo"): "cc7886aae3af6b7b0facd82f95390242",
 
-            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "cd832734efafe234ca80a00ab0b973c5",
+            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "49cc64b25314155c1b8ab0361ac0c34f",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.mp4"): "e733b4cc385b953b08c8eb0f47e03c1e",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.nfo"): "2b3ccb3f1ef81ee49fe1afb88f275a09",
         }
@@ -277,7 +277,7 @@ def expected_rolling_recent_channel_download():
             Path("tvshow.nfo"): "83c7db96081ac5bdf289fcf396bec157",
 
             # Rolling Recent Entry files
-            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "cd832734efafe234ca80a00ab0b973c5",
+            Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id-thumb.jpg"): "49cc64b25314155c1b8ab0361ac0c34f",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.mp4"): "e733b4cc385b953b08c8eb0f47e03c1e",
             Path("Season 2018/s2018.e1102 - Jesse's Minecraft Server _ IP mc.jesse.id.nfo"): "2b3ccb3f1ef81ee49fe1afb88f275a09",
         }
