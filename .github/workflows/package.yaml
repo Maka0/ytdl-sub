@@ -5,6 +5,7 @@ on:
     # Publish `master` as Docker `latest` image.
     branches:
       - master
+      - parallel-builds
 
     # Publish `v1.2.3` tags as releases.
     tags:
@@ -209,7 +210,6 @@ jobs:
           --platform=linux/amd64,linux/arm64 \
           --cache-from=type=local,src=/tmp/build-cache/amd64 \
           --cache-from=type=local,src=/tmp/build-cache/arm64 \
-          --tag ${{ steps.formatted-image_id.outputs.IMAGE_ID }}:latest \
           --tag ${{ steps.formatted-image_id.outputs.IMAGE_ID }}:${{ steps.formatted_version.outputs.VERSION }} \
           --label "runnumber=${GITHUB_RUN_ID}" \
           docker/
