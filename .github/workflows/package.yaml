@@ -148,7 +148,7 @@ jobs:
       packages: write
       contents: read
 
-    pre-if: ${{ github.ref }} == refs/heads/master || ${{ github.ref }} =~ ^refs\/tags\/v.*
+    if: github.ref == 'refs/heads/master'
     steps:
       - uses: actions/checkout@v3
 
